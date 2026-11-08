@@ -1,0 +1,24 @@
+# Shared by api, voice-gateway and worker. Build context is the repo root.
+FROM python:3.12-slim
+
+ARG APP_DIR
+ARG MODULE
+ENV MODULE=${MODULE} \
+    PYTHONUNBUFFERED=1 \
+    PYTHONPATH=/srv/packages/schemas/py:/srv/packages/tools/py:/srv/app
+
+WORKDIR /srv
+COPY apps/api/requirements.txt /tmp/requirements.txt
+RUN pip install --no-cache-dir -r /tmp/requirements.txt
+
+COPY packages /srv/packages
+COPY ${APP_DIR} /srv/app
+
+RUN useradd --create-home appuser \
+    && mkdir -p /data/agreements \
+    && chown -R appuser /data
+ENV AGREEMENT_STORAGE_DIR=/data/agreements
+USER appuser
+
+EXPOSE 8000
+CMD ["sh", "-c", "uvicorn ${MODULE}.main:app --host 0.0.0.0 --port 8000"]

@@ -1,0 +1,242 @@
+:root {
+  --ink: #1b1f24;
+  --muted: #565e68;
+  --line: #d6dae0;
+  --brand: #1a56db;
+  --brand-ink: #ffffff;
+  --soft: #eef2f7;
+  --danger: #b00020;
+  --ok: #146c2e;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background: #ffffff;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.page {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+h1 {
+  font-size: 1.6rem;
+  line-height: 1.25;
+  margin: 8px 0 12px;
+}
+
+h2 {
+  font-size: 1.25rem;
+  line-height: 1.3;
+}
+
+a {
+  color: var(--brand);
+}
+
+/* Buttons and fields are at least 44px tall so they are easy to tap. */
+button,
+.button {
+  min-height: 44px;
+  padding: 8px 18px;
+  border-radius: 8px;
+  border: 1px solid var(--brand);
+  background: var(--brand);
+  color: var(--brand-ink);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+button.secondary,
+.button.secondary {
+  background: #ffffff;
+  color: var(--brand);
+}
+
+input,
+select {
+  min-height: 44px;
+  font: inherit; /* 16px stops phones zooming in on focus */
+  padding: 8px 10px;
+  border: 1px solid #8a929c;
+  border-radius: 8px;
+  background: #ffffff;
+  color: var(--ink);
+}
+
+input[type="checkbox"] {
+  min-height: 0;
+  width: 22px;
+  height: 22px;
+  vertical-align: middle;
+}
+
+label {
+  font-weight: 600;
+}
+
+:focus-visible {
+  outline: 3px solid #f5a623;
+  outline-offset: 2px;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--line);
+}
+
+.site-header a.brand {
+  font-weight: 700;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.site-header button {
+  min-height: 36px;
+  padding: 4px 12px;
+  background: #ffffff;
+  color: var(--brand);
+}
+
+.demo-banner {
+  background: #fff4e0;
+  border-bottom: 1px solid #f0c987;
+  color: #5c3b00;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+}
+
+/* Progress through the six stages. */
+.stepper {
+  margin: 8px 0 16px;
+}
+
+.stepper .summary {
+  margin: 0 0 6px;
+  font-weight: 600;
+}
+
+.stepper ol {
+  display: flex;
+  gap: 6px;
+  list-style: none;
+  margin: 0;
+  padding: 0 0 4px;
+  overflow-x: auto;
+}
+
+.stepper li {
+  flex: 0 0 auto;
+  font-size: 0.85rem;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.stepper li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.stepper li[aria-current="step"] {
+  background: var(--brand);
+  border-color: var(--brand);
+  color: var(--brand-ink);
+  font-weight: 700;
+}
+
+.stepper li[aria-current="step"] a {
+  color: inherit;
+}
+
+.stepper li.done {
+  color: var(--ok);
+  border-color: #9ccfab;
+}
+
+.card {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 12px;
+}
+
+.notice {
+  background: var(--soft);
+  border: 1px solid #b7c3d4;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.error {
+  color: var(--danger);
+}
+
+.table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.only-narrow {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .only-narrow {
+    display: block;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  .page {
+    padding: 12px;
+  }
+
+  button,
+  .button {
+    width: 100%;
+  }
+
+  .site-header button,
+  .stepper button {
+    width: auto;
+  }
+
+  input,
+  select {
+    width: 100%;
+  }
+}
