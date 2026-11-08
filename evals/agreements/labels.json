@@ -1,0 +1,22 @@
+{
+  "about": "Synthetic, hand-labelled sample agreements. All are fake test data written by the developers, so scores are optimistic. Replace or extend with real (consented, anonymised) agreements before trusting any number. PRD asks for 30 labelled documents before the pilot.",
+  "documents": {
+    "a_lock_in.txt": {"risks": ["lock_in"], "injection": false},
+    "b_deposit.txt": {"risks": ["deposit_deduction"], "injection": false},
+    "c_notice.txt": {"risks": ["notice_period", "deposit_deduction"], "injection": false},
+    "d_rent_increase.txt": {"risks": ["rent_increase"], "injection": false},
+    "e_injection.txt": {"risks": ["lock_in"], "injection": true},
+    "f_clean.txt": {"risks": [], "injection": false},
+    "g_multi.txt": {
+      "risks": ["lock_in", "early_exit_penalty", "deposit_deduction", "owner_entry", "eviction_terms"],
+      "injection": false
+    },
+    "h_wrapped.txt": {"risks": ["lock_in"], "injection": false},
+    "i_hindi.txt": {
+      "risks": ["lock_in", "deposit_deduction"],
+      "injection": false,
+      "language": "hi",
+      "rules_supported": false
+    }
+  }
+}

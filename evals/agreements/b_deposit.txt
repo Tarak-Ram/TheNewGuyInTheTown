@@ -1,0 +1,7 @@
+FAKE SAMPLE PG AGREEMENT 2 - TEST DATA, NOT A REAL AGREEMENT
+
+1. Rent. The Tenant shall pay Rs 8,000 per month.
+2. Security deposit. The Tenant pays a security deposit of Rs 16,000 at the time of joining.
+3. Deductions. The Owner may deduct painting charges, cleaning charges and any damage charges from the deposit at the sole discretion of the Owner.
+4. Refund. The balance deposit will be returned within 90 days of vacating the room.
+5. Notice. The Tenant must give 30 days written notice before vacating.

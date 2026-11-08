@@ -1,0 +1,9 @@
+FAKE SAMPLE PG AGREEMENT 6 - TEST DATA, NOT A REAL AGREEMENT (a fair agreement)
+
+1. Rent. The Tenant shall pay Rs 7,500 per month on or before the 5th of each month.
+2. Lock-in. There is no lock-in period. The Tenant may leave at any time after giving notice.
+3. Deposit. A security deposit of one month rent is taken and is refundable in full within 30 days of vacating, after a joint check of the room.
+4. Notice. Either party may end this agreement with 30 days written notice.
+5. Rent revision. The rent shall not be increased during the first 11 months, and afterwards only by mutual written agreement.
+6. Entry. The Owner may enter the room for repairs with 24 hours prior notice to the Tenant.
+7. There is no penalty for leaving after the notice period.

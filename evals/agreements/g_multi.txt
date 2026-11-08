@@ -1,0 +1,9 @@
+FAKE SAMPLE PG AGREEMENT 7 - TEST DATA, NOT A REAL AGREEMENT
+
+1. Rent. The Tenant shall pay Rs 9,000 per month.
+2. Deposit. The Tenant pays a security deposit of Rs 18,000.
+3. Lock-in. The Tenant has a lock-in period of 6 months.
+4. Early exit. If the Tenant leaves during the lock-in, the Tenant shall pay a penalty equal to the remaining rent for the lock-in period.
+5. Refund. The security deposit is non-refundable.
+6. Entry. The Owner may enter the room at any time without prior notice.
+7. Termination. The Owner may terminate this agreement and ask the Tenant to vacate within 48 hours.

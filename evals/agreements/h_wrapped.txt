@@ -1,0 +1,14 @@
+FAKE SAMPLE PG AGREEMENT 8 - TEST DATA, NOT A REAL AGREEMENT
+(Lines are hard-wrapped, as text from a PDF usually is.)
+
+1. Rent. The Tenant shall pay Rs 8,500 per month on or
+before the 5th of each month.
+2. Lock-
+in. The Tenant is bound by a lock-
+in period of 9 months and shall not
+vacate the room before the end of this
+period.
+3. Deposit. The security deposit of Rs 17,000 is refundable
+within 30 days of vacating.
+4. Notice. Either party may end this agreement with 30 days
+written notice.

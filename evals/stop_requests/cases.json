@@ -1,0 +1,1031 @@
+{
+  "about": "Things owners say, labelled by hand. 'stops' are real ways of asking not to be called. 'normal' is ordinary PG talk that must never be treated as a stop. Written by the developers, not from real calls. Every set EXCEPT 'holdout 5' was used to tune the patterns, so lexical scores on them are optimistic; holdout 5 was measured before any tuning on it and is the honest figure for phrasing the patterns have not seen. Add phrasings from real calls here first, fix the detector second.",
+  "stops": [
+    {
+      "text": "I don't want any more calls",
+      "source": "review round 1 (original detector, 54% caught)"
+    },
+    {
+      "text": "Please don't ring this number again",
+      "source": "review round 1 (original detector, 54% caught)"
+    },
+    {
+      "text": "Take me off your calling list",
+      "source": "review round 1 (original detector, 54% caught)"
+    },
+    {
+      "text": "Don't call this number",
+      "source": "review round 1 (original detector, 54% caught)"
+    },
+    {
+      "text": "No more calls please",
+      "source": "review round 1 (original detector, 54% caught)"
+    },
+    {
+      "text": "I told you before, stop",
+      "source": "review round 1 (original detector, 54% caught)"
+    },
+    {
+      "text": "Stop it",
+      "source": "review round 1 (original detector, 54% caught)"
+    },
+    {
+      "text": "Enough, stop calling",
+      "source": "review round 1 (original detector, 54% caught)"
+    },
+    {
+      "text": "Who gave you my number? Remove it",
+      "source": "review round 1 (original detector, 54% caught)"
+    },
+    {
+      "text": "I do not wish to receive these calls",
+      "source": "review round 1 (original detector, 54% caught)"
+    },
+    {
+      "text": "Please delete my number from your system",
+      "source": "review round 1 (original detector, 54% caught)"
+    },
+    {
+      "text": "I'm not interested in this",
+      "source": "review round 1 (original detector, 54% caught)"
+    },
+    {
+      "text": "Do not contact me again",
+      "source": "review round 1 (original detector, 54% caught)"
+    },
+    {
+      "text": "Never call me again",
+      "source": "review round 1 (original detector, 54% caught)"
+    },
+    {
+      "text": "I don't want to speak with a machine",
+      "source": "review round 1 (original detector, 54% caught)"
+    },
+    {
+      "text": "Don't call me",
+      "source": "review round 1 (original detector, 54% caught)"
+    },
+    {
+      "text": "Quit calling me",
+      "source": "review round 1 (original detector, 54% caught)"
+    },
+    {
+      "text": "Block this number",
+      "source": "review round 1 (original detector, 54% caught)"
+    },
+    {
+      "text": "I am reporting this as spam",
+      "source": "review round 1 (original detector, 54% caught)"
+    },
+    {
+      "text": "This is harassment, stop",
+      "source": "review round 1 (original detector, 54% caught)"
+    },
+    {
+      "text": "Please do not disturb me again",
+      "source": "review round 1 (original detector, 54% caught)"
+    },
+    {
+      "text": "No, I do not want AI calling me",
+      "source": "review round 1 (original detector, 54% caught)"
+    },
+    {
+      "text": "I am not comfortable talking to a robot",
+      "source": "review round 1 (original detector, 54% caught)"
+    },
+    {
+      "text": "Hang up",
+      "source": "review round 1 (original detector, 54% caught)"
+    },
+    {
+      "text": "Kindly do not call this number",
+      "source": "holdout 1"
+    },
+    {
+      "text": "Please don't call me anymore",
+      "source": "holdout 1"
+    },
+    {
+      "text": "Stop these calls",
+      "source": "holdout 1"
+    },
+    {
+      "text": "Stop making these calls",
+      "source": "holdout 1"
+    },
+    {
+      "text": "I want you to stop",
+      "source": "holdout 1"
+    },
+    {
+      "text": "I request you not to call again",
+      "source": "holdout 1"
+    },
+    {
+      "text": "Do not call back",
+      "source": "holdout 1"
+    },
+    {
+      "text": "I don't want to be called again",
+      "source": "holdout 1"
+    },
+    {
+      "text": "Please stop ringing me",
+      "source": "holdout 1"
+    },
+    {
+      "text": "Don't phone me again please",
+      "source": "holdout 1"
+    },
+    {
+      "text": "Stop messaging me",
+      "source": "holdout 1"
+    },
+    {
+      "text": "Not interested at all",
+      "source": "holdout 1"
+    },
+    {
+      "text": "I am not available for such calls",
+      "source": "holdout 1"
+    },
+    {
+      "text": "Remove my contact from your records",
+      "source": "holdout 1"
+    },
+    {
+      "text": "I said no already, stop",
+      "source": "holdout 1"
+    },
+    {
+      "text": "Please, no more",
+      "source": "holdout 1"
+    },
+    {
+      "text": "Don't ever ring me",
+      "source": "holdout 1"
+    },
+    {
+      "text": "I won't talk to a recording",
+      "source": "holdout 1"
+    },
+    {
+      "text": "I'm going to file a complaint",
+      "source": "holdout 1"
+    },
+    {
+      "text": "Take my name off",
+      "source": "holdout 1"
+    },
+    {
+      "text": "I do not consent to these calls",
+      "source": "holdout 1"
+    },
+    {
+      "text": "You people keep disturbing me",
+      "source": "holdout 1"
+    },
+    {
+      "text": "Please leave us alone",
+      "source": "holdout 1"
+    },
+    {
+      "text": "End this call",
+      "source": "holdout 1"
+    },
+    {
+      "text": "Cut the call",
+      "source": "holdout 1"
+    },
+    {
+      "text": "Sir please remove this number from your records",
+      "source": "holdout 2"
+    },
+    {
+      "text": "I am telling you for the last time, do not call",
+      "source": "holdout 2"
+    },
+    {
+      "text": "Stop harassing me with these calls",
+      "source": "holdout 2"
+    },
+    {
+      "text": "How many times should I say no? Don't call",
+      "source": "holdout 2"
+    },
+    {
+      "text": "I don't need any calls from you",
+      "source": "holdout 2"
+    },
+    {
+      "text": "Please delete my phone number",
+      "source": "holdout 2"
+    },
+    {
+      "text": "Not interested. Don't call again.",
+      "source": "holdout 2"
+    },
+    {
+      "text": "Kindly stop contacting us",
+      "source": "holdout 2"
+    },
+    {
+      "text": "I will call the police if you call again",
+      "source": "holdout 2"
+    },
+    {
+      "text": "Take this number off the list",
+      "source": "holdout 2"
+    },
+    {
+      "text": "Who are you? I never agreed to these calls",
+      "source": "holdout 2"
+    },
+    {
+      "text": "This is the third time, please stop",
+      "source": "holdout 2"
+    },
+    {
+      "text": "Don't call this number ever again",
+      "source": "holdout 2"
+    },
+    {
+      "text": "I have no interest, please don't call",
+      "source": "holdout 2"
+    },
+    {
+      "text": "Please don't contact me again",
+      "source": "holdout 2"
+    },
+    {
+      "text": "Stop calling, I am not interested",
+      "source": "holdout 2"
+    },
+    {
+      "text": "Don't ring me again",
+      "source": "holdout 2"
+    },
+    {
+      "text": "Can you please not call me again",
+      "source": "holdout 2"
+    },
+    {
+      "text": "Do not call me back please",
+      "source": "holdout 2"
+    },
+    {
+      "text": "I'm blocking your number",
+      "source": "holdout 2"
+    },
+    {
+      "text": "You are wasting my time, stop calling",
+      "source": "holdout 2"
+    },
+    {
+      "text": "I do not want any AI to call me",
+      "source": "holdout 2"
+    },
+    {
+      "text": "Please stop this immediately",
+      "source": "holdout 2"
+    },
+    {
+      "text": "I said no, don't ever call",
+      "source": "holdout 2"
+    },
+    {
+      "text": "Remove my name from your system",
+      "source": "holdout 2"
+    },
+    {
+      "text": "I'd like to opt out of these calls",
+      "source": "holdout 2"
+    },
+    {
+      "text": "No more calls from your company",
+      "source": "holdout 2"
+    },
+    {
+      "text": "Please don't disturb me on this number",
+      "source": "holdout 2"
+    },
+    {
+      "text": "Madam, I humbly request you to stop calling me",
+      "source": "holdout 3"
+    },
+    {
+      "text": "Please do the needful and delete my number",
+      "source": "holdout 3"
+    },
+    {
+      "text": "I think you have the wrong person, do not call again",
+      "source": "holdout 3"
+    },
+    {
+      "text": "Arre baba, enough of this, no more calls",
+      "source": "holdout 3"
+    },
+    {
+      "text": "Why do you people call at this hour? Don't call me again",
+      "source": "holdout 3"
+    },
+    {
+      "text": "I'm not going to answer any more of these, so stop",
+      "source": "holdout 3"
+    },
+    {
+      "text": "Please don't call on this number anymore",
+      "source": "holdout 3"
+    },
+    {
+      "text": "My number is on the do not disturb list, why are you calling",
+      "source": "holdout 3"
+    },
+    {
+      "text": "Go away and don't call",
+      "source": "holdout 3"
+    },
+    {
+      "text": "I'm tired of these calls. Stop them.",
+      "source": "holdout 3"
+    },
+    {
+      "text": "Look, I'm not interested in any of this, please remove me",
+      "source": "holdout 3"
+    },
+    {
+      "text": "We will not take any calls from you, kindly stop",
+      "source": "holdout 3"
+    },
+    {
+      "text": "Don't call us",
+      "source": "holdout 3"
+    },
+    {
+      "text": "Never ever call this number",
+      "source": "holdout 3"
+    },
+    {
+      "text": "Sir, I am requesting once more, no calls",
+      "source": "holdout 3"
+    },
+    {
+      "text": "Take my details out of your list",
+      "source": "holdout 3"
+    },
+    {
+      "text": "I don't want to hear from you people again",
+      "source": "holdout 3"
+    },
+    {
+      "text": "Do not ring this number again",
+      "source": "holdout 3"
+    },
+    {
+      "text": "Okay I'm done with this, stop calling",
+      "source": "holdout 3"
+    },
+    {
+      "text": "You have been calling daily, it is irritating, stop it",
+      "source": "holdout 3"
+    },
+    {
+      "text": "Please cancel all calls to this number",
+      "source": "holdout 3"
+    },
+    {
+      "text": "Don't contact this number again",
+      "source": "holdout 3"
+    },
+    {
+      "text": "I withdraw whatever permission I gave",
+      "source": "holdout 3"
+    },
+    {
+      "text": "I don't want your calls",
+      "source": "holdout 3"
+    },
+    {
+      "text": "That's enough. Don't call me.",
+      "source": "holdout 3"
+    },
+    {
+      "text": "I'm reporting this number",
+      "source": "holdout 3"
+    },
+    {
+      "text": "I have no wish to continue, please don't call back",
+      "source": "holdout 3"
+    },
+    {
+      "text": "I would be grateful if you could refrain from phoning this number in future",
+      "source": "holdout 4"
+    },
+    {
+      "text": "Yaar please, I'm in a meeting, stop this nonsense",
+      "source": "holdout 4"
+    },
+    {
+      "text": "We are not accepting any marketing calls",
+      "source": "holdout 4"
+    },
+    {
+      "text": "Who has given you this number? Please erase it",
+      "source": "holdout 4"
+    },
+    {
+      "text": "That's the fifth call this week, I'm done",
+      "source": "holdout 4"
+    },
+    {
+      "text": "No means no. Don't call.",
+      "source": "holdout 4"
+    },
+    {
+      "text": "Please note my number as do-not-call",
+      "source": "holdout 4"
+    },
+    {
+      "text": "If you call once more I will complain",
+      "source": "holdout 4"
+    },
+    {
+      "text": "Stop. Stop. Stop.",
+      "source": "holdout 4"
+    },
+    {
+      "text": "You people never listen, I said don't call",
+      "source": "holdout 4"
+    },
+    {
+      "text": "Look, I'm an old man, I don't want a computer calling me",
+      "source": "holdout 4"
+    },
+    {
+      "text": "Not again. Please stop calling",
+      "source": "holdout 4"
+    },
+    {
+      "text": "Sorry, no interest, thank you, bye",
+      "source": "holdout 4"
+    },
+    {
+      "text": "I request your company to remove me from the database",
+      "source": "holdout 4"
+    },
+    {
+      "text": "Please do not call this number any longer",
+      "source": "holdout 4"
+    },
+    {
+      "text": "Why are you disturbing me again and again",
+      "source": "holdout 4"
+    },
+    {
+      "text": "Kindly don't call my number",
+      "source": "holdout 4"
+    },
+    {
+      "text": "I am going to switch off my phone if you call again",
+      "source": "holdout 4"
+    },
+    {
+      "text": "Take me out of this, please",
+      "source": "holdout 4"
+    },
+    {
+      "text": "No thank you, don't call me anymore",
+      "source": "holdout 4"
+    },
+    {
+      "text": "Is this a robot? I don't talk to robots, goodbye",
+      "source": "holdout 4"
+    },
+    {
+      "text": "Delete this number now",
+      "source": "holdout 4"
+    },
+    {
+      "text": "This is irritating, enough",
+      "source": "holdout 4"
+    },
+    {
+      "text": "I don't give permission for these calls",
+      "source": "holdout 4"
+    },
+    {
+      "text": "Please, I beg you, no more calls",
+      "source": "holdout 4"
+    },
+    {
+      "text": "My lawyer will hear about this if you ring again",
+      "source": "holdout 4"
+    },
+    {
+      "text": "Block karo isko, I don't want these calls",
+      "source": "holdout 4"
+    },
+    {
+      "text": "Pls dont call again",
+      "source": "holdout 4"
+    },
+    {
+      "text": "I do not appreciate being called by a machine",
+      "source": "holdout 4"
+    },
+    {
+      "text": "Remove me",
+      "source": "holdout 4"
+    },
+    {
+      "text": "Please be informed that this number is registered under the DND service",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "I am a working woman and these calls during office hours are unacceptable",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "Stop wasting my time and remove my contact",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "I'm not comfortable giving details to an automated caller",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "This is a nuisance",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "You're calling from where? I never gave my number to any company",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "Do me a favour and lose this number",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "Don't you people have anything better to do? Leave me out of your list",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "I'm hanging up now and I won't answer next time either",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "Please make a note, no calls on this line",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "For heaven's sake, how many times do I have to say it? No!",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "I've asked the previous caller too, put my name on the exclusion list",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "Can you not? Seriously, can you just not",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "Don't phone here again, understood?",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "Please unlist this number from your records",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "No thanks. Not needed. Don't ring back.",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "I'm blocking all unknown numbers from now on",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "My family does not want these sales calls",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "That is the last time I'm talking to you, all right?",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "I will not entertain such calls",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "End of the discussion, don't contact me",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "You must stop doing this immediately",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "We have no requirement, please don't disturb us",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "Auto-dialler calls are illegal, stop",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "Disconnect and don't try again",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "I don't pick up unknown calls, please note that",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "No no no, not interested, please don't call here again",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "This number is not for business, please don't call",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "Misuse of my number, I will report it",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "Cease all contact",
+      "source": "holdout 5 (never tuned on)"
+    }
+  ],
+  "normal": [
+    {
+      "text": "Rent is 12000",
+      "source": "review round 1 (original detector, 54% caught)"
+    },
+    {
+      "text": "It is near the bus stop",
+      "source": "review round 1 (original detector, 54% caught)"
+    },
+    {
+      "text": "Call me back tomorrow",
+      "source": "review round 1 (original detector, 54% caught)"
+    },
+    {
+      "text": "Not now, I am busy",
+      "source": "review round 1 (original detector, 54% caught)"
+    },
+    {
+      "text": "Yes this is a good time",
+      "source": "review round 1 (original detector, 54% caught)"
+    },
+    {
+      "text": "We stop serving dinner at nine",
+      "source": "review round 1 (original detector, 54% caught)"
+    },
+    {
+      "text": "Please call after six, I am free then",
+      "source": "holdout 1"
+    },
+    {
+      "text": "I can't stop now, I am cooking, can you wait?",
+      "source": "holdout 1"
+    },
+    {
+      "text": "The bus stop is two minutes away",
+      "source": "holdout 1"
+    },
+    {
+      "text": "Don't take the main road, use the lane",
+      "source": "holdout 1"
+    },
+    {
+      "text": "We do not allow pets",
+      "source": "holdout 1"
+    },
+    {
+      "text": "I don't have the deposit number with me",
+      "source": "holdout 1"
+    },
+    {
+      "text": "I'm not available tomorrow, come on Sunday",
+      "source": "holdout 1"
+    },
+    {
+      "text": "No more questions? Okay",
+      "source": "holdout 1"
+    },
+    {
+      "text": "Can you not call during lunch?",
+      "source": "holdout 1"
+    },
+    {
+      "text": "Call me later, please",
+      "source": "holdout 1"
+    },
+    {
+      "text": "Nobody told me about the notice period",
+      "source": "holdout 1"
+    },
+    {
+      "text": "They stopped the mess last month",
+      "source": "holdout 1"
+    },
+    {
+      "text": "Stop the car there, the PG is on the left",
+      "source": "holdout 1"
+    },
+    {
+      "text": "Please don't call after nine, I sleep early",
+      "source": "holdout 2"
+    },
+    {
+      "text": "I'm not available now, call me at six",
+      "source": "holdout 2"
+    },
+    {
+      "text": "Don't worry about the deposit",
+      "source": "holdout 2"
+    },
+    {
+      "text": "No, the rent doesn't include food",
+      "source": "holdout 2"
+    },
+    {
+      "text": "I'm not sure about that, let me check",
+      "source": "holdout 2"
+    },
+    {
+      "text": "Stop by anytime this week",
+      "source": "holdout 2"
+    },
+    {
+      "text": "We don't want smokers here",
+      "source": "holdout 2"
+    },
+    {
+      "text": "Could you please repeat that?",
+      "source": "holdout 2"
+    },
+    {
+      "text": "The previous tenant stopped paying rent",
+      "source": "holdout 2"
+    },
+    {
+      "text": "No more than four people in a room",
+      "source": "holdout 2"
+    },
+    {
+      "text": "Sorry, I can't hear you properly",
+      "source": "holdout 2"
+    },
+    {
+      "text": "Don't call the landline, use my mobile",
+      "source": "holdout 2"
+    },
+    {
+      "text": "I do not have a double sharing room right now",
+      "source": "holdout 2"
+    },
+    {
+      "text": "My brother is not interested in this room, but I am",
+      "source": "holdout 2"
+    },
+    {
+      "text": "Please don't call me before eight in the morning",
+      "source": "holdout 3"
+    },
+    {
+      "text": "I'm busy right now, can you call me tomorrow evening?",
+      "source": "holdout 3"
+    },
+    {
+      "text": "No smoking, no drinking, and no loud music after ten",
+      "source": "holdout 3"
+    },
+    {
+      "text": "Don't call the number on the board, it is old",
+      "source": "holdout 3"
+    },
+    {
+      "text": "You can stop by on Saturday",
+      "source": "holdout 3"
+    },
+    {
+      "text": "They stopped the bus service last year",
+      "source": "holdout 3"
+    },
+    {
+      "text": "I am not interested in selling this property",
+      "source": "holdout 3"
+    },
+    {
+      "text": "The owner does not want any pets",
+      "source": "holdout 3"
+    },
+    {
+      "text": "Don't forget the ID proof and two photos",
+      "source": "holdout 3"
+    },
+    {
+      "text": "No more bookings for December",
+      "source": "holdout 3"
+    },
+    {
+      "text": "Please do not park in front of the gate",
+      "source": "holdout 3"
+    },
+    {
+      "text": "He doesn't want to pay the advance in cash",
+      "source": "holdout 3"
+    },
+    {
+      "text": "Call the warden if you need anything",
+      "source": "holdout 3"
+    },
+    {
+      "text": "It's fine, go on, what else do you want to know?",
+      "source": "holdout 3"
+    },
+    {
+      "text": "Rent is eleven thousand and the deposit is twenty",
+      "source": "holdout 4"
+    },
+    {
+      "text": "Please call after seven, the owner is out",
+      "source": "holdout 4"
+    },
+    {
+      "text": "Sorry, there was noise, could you say that again?",
+      "source": "holdout 4"
+    },
+    {
+      "text": "No, we don't provide food, only a kitchen",
+      "source": "holdout 4"
+    },
+    {
+      "text": "I stopped renting rooms last year, only boys now",
+      "source": "holdout 4"
+    },
+    {
+      "text": "Don't take an auto, the metro is closer",
+      "source": "holdout 4"
+    },
+    {
+      "text": "Not now, the owner is sleeping",
+      "source": "holdout 4"
+    },
+    {
+      "text": "Please call my son, he handles this",
+      "source": "holdout 4"
+    },
+    {
+      "text": "Is the person a student or working?",
+      "source": "holdout 4"
+    },
+    {
+      "text": "We don't allow visitors after eight",
+      "source": "holdout 4"
+    },
+    {
+      "text": "The room is not available till January",
+      "source": "holdout 4"
+    },
+    {
+      "text": "I have a double sharing room, not single",
+      "source": "holdout 4"
+    },
+    {
+      "text": "He doesn't want to leave the current place",
+      "source": "holdout 4"
+    },
+    {
+      "text": "Do you need parking?",
+      "source": "holdout 4"
+    },
+    {
+      "text": "Hello? Who is this speaking?",
+      "source": "holdout 4"
+    },
+    {
+      "text": "Hello, yes, this is the owner speaking",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "The rent for a single room is fourteen thousand",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "It includes breakfast and dinner, but not lunch",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "There is a deposit of one month, refundable",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "Notice period is thirty days, no penalty",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "No, we don't have a gym, but there is a terrace",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "Visitors are allowed only in the common room",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "The gate closes at ten thirty, you can't enter after that",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "We don't permit cooking in the rooms",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "Please bring your Aadhaar and two photos when you visit",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "Not sure about December, I need to check with the other tenant",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "You can visit tomorrow between four and six",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "Wi-Fi is included, no extra charge",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "The previous tenant left last week so the room is free",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "No problem, I will keep the room for you",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "Sorry, the line is bad, can you repeat",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "Let me check and call you back in five minutes",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "I'm at work now, can you give me ten minutes?",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "The area is quiet, no noise at all",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "There is no lock-in, you can leave anytime",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "You can call this number any time after eleven",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "My wife manages the kitchen, she will explain the food",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "We do not take bachelors above thirty, is that okay for you?",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "Parking is not available for cars, only bikes",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "I can't hear you properly, please speak louder",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "Okay, tell me what details you need",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "Thank you, I will think about it",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "Don't worry, the room is clean and safe",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "Are you calling for a boy or a girl?",
+      "source": "holdout 5 (never tuned on)"
+    },
+    {
+      "text": "That sounds fine to me, please go on",
+      "source": "holdout 5 (never tuned on)"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+FAKE SAMPLE PG AGREEMENT 1 - TEST DATA, NOT A REAL AGREEMENT
+
+1. Parties. This agreement is between Sunrise PG (the Owner) and the Tenant.
+2. Rent. The Tenant shall pay Rs 9,500 per month on or before the 5th of each month.
+3. Lock-in. The Tenant is bound by a lock-in period of 11 months and shall not vacate the room before the end of this period.
+4. Deposit. The Owner holds a refundable security deposit of one month rent, returned within 15 days of vacating after room inspection.
+5. Notice. Either party may end this agreement by giving 30 days written notice after the lock-in period.

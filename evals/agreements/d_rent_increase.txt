@@ -1,0 +1,6 @@
+FAKE SAMPLE PG AGREEMENT 4 - TEST DATA, NOT A REAL AGREEMENT
+
+1. Rent. The rent for the first 11 months is Rs 10,000 per month.
+2. Revision. The Owner may increase the rent by 15% every year.
+3. Deposit. The security deposit of Rs 20,000 is refundable in full within 30 days of vacating.
+4. Notice. Either party may end this agreement with 30 days written notice.
