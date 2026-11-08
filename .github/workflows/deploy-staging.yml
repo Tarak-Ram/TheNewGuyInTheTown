@@ -1,0 +1,57 @@
+name: deploy-staging
+
+# Deploys to STAGING after the tests pass on main. It never touches production.
+# Set the GitHub environment "staging" to require a manual approval before this job runs.
+#
+# One-time setup (see infra/README.md): after `terraform apply`, add these repository variables
+#   GCP_PROJECT_ID, GCP_WORKLOAD_IDENTITY_PROVIDER, GCP_DEPLOYER_SERVICE_ACCOUNT
+# They are not secrets. Authentication uses a short-lived token, so no key is stored.
+#
+# NOT YET RUN against a real project.
+
+on:
+  workflow_run:
+    workflows: [ci]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write # lets GitHub prove its identity to Google
+
+concurrency:
+  group: deploy-staging
+  cancel-in-progress: false # never cut a deploy in half
+
+jobs:
+  deploy:
+    # Only after a passing CI run on main, or when started by hand.
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    environment: staging
+    env:
+      PROJECT_ID: ${{ vars.GCP_PROJECT_ID }}
+      REGION: asia-south1
+      ENVIRONMENT: staging
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+
+      - id: auth
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ vars.GCP_WORKLOAD_IDENTITY_PROVIDER }}
+          service_account: ${{ vars.GCP_DEPLOYER_SERVICE_ACCOUNT }}
+
+      - uses: google-github-actions/setup-gcloud@v2
+
+      - name: Let Docker push to Artifact Registry
+        run: gcloud auth configure-docker "${REGION}-docker.pkg.dev" --quiet
+
+      - name: Build and push images
+        run: infra/scripts/build_push.sh "${GITHUB_SHA::12}"
+
+      - name: Deploy with a canary, and roll back on errors
+        run: infra/scripts/deploy.sh "${GITHUB_SHA::12}"

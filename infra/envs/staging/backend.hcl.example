@@ -1,0 +1,10 @@
+# Terraform state lives in a private Cloud Storage bucket that you create by hand first:
+#   gcloud storage buckets create gs://YOUR-STATE-BUCKET --location=asia-south1 \
+#     --uniform-bucket-level-access --public-access-prevention
+#   gcloud storage buckets update gs://YOUR-STATE-BUCKET --versioning
+# State contains generated secrets, so nobody else should have access to this bucket.
+#
+# Copy to backend.hcl and fill in. backend.hcl is ignored by git.
+
+bucket = "YOUR-STATE-BUCKET"
+prefix = "nguit/staging"

@@ -1,0 +1,16 @@
+# Copy to terraform.tfvars and fill in. terraform.tfvars is ignored by git.
+
+project_id  = "your-staging-project-id"
+alert_email = "you@example.com"
+
+# Optional. Leave empty to skip budget alerts.
+# billing_account = "0123AB-456CDE-789FGH"
+# budget_amount   = 5000
+# budget_currency = "INR"   # must match the billing account's currency
+
+# Public, so it is not a secret.
+# google_client_id = "1234567890-abc.apps.googleusercontent.com"
+
+# Confirm these in the Google Cloud console before the first call.
+# gemini_live_model = "gemini-3.8-live"
+# gemini_text_model = "<exact Gemini Flash id>"
