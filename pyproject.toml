@@ -1,0 +1,28 @@
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.ruff.lint.per-file-ignores]
+# Plain-language explanation strings read better on one line.
+"packages/tools/py/nguit_tools/agreement_check.py" = ["E501"]
+"packages/tools/py/nguit_tools/agreement_ai.py" = ["E501"]
+"infra/tests/*.py" = ["E501"]  # long strings quoted from Terraform
+
+[tool.ruff.lint.flake8-bugbear]
+extend-immutable-calls = ["fastapi.Depends", "fastapi.Header"]
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "packages/schemas/py",
+  "packages/tools/py",
+  "apps/api",
+  "apps/voice-gateway",
+  "apps/worker",
+  "evals",
+]
+testpaths = ["apps", "packages", "evals", "infra"]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"

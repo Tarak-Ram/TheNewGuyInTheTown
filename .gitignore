@@ -11,3 +11,15 @@ __pycache__/
 *.tfstate
 *.tfstate.*
 .DS_Store
+
+# Uploaded agreements (personal data) when running the API outside Docker
+data/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+backend.hcl
+crash.log
+tfplan
